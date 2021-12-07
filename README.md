@@ -16,4 +16,6 @@ for multi config buildsystems like visual studio
 The .github/workflows/build.yml file contains the build pipeline, 
 this pipeline is used to confirm the branch can build on all specified platforms and the unit tests
 succeed before merging the branch to main. In order to enforce this use the following settings in Github:  
-![alt text](https://github.com/RuinerWarrior/Example.CMakeWithGithub/blob/main/assets/github_branch_settings.png?raw=true)
+![alt text](https://github.com/RuinerWarrior/Example.CMakeWithGithub/blob/main/assets/github_branch_settings.png?raw=true)  
+
+If working alone, don't check the "Include administrators" option, as you won't be able to merge pr's yourself.
