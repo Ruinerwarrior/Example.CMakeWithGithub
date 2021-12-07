@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.21.1)
 
-project(Example.CMakeWithGithub 
+project(Example.CMakeWithGithub
 VERSION 1.0.0
 LANGUAGES C
 DESCRIPTION "Example of using cmake with github actions" 
@@ -30,6 +30,6 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${OUTPUT_DIRECTORY}/bin)
 include(CTest)
 enable_testing()
 
-add_subdirectory(${PROJET_NAME})
+add_subdirectory(${PROJECT_NAME})
 
 include(CPack)
