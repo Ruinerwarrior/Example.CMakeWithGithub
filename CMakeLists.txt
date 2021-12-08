@@ -30,6 +30,6 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${OUTPUT_DIRECTORY}/bin)
 include(CTest)
 enable_testing()
 
-add_subdirectory(${PROJECT_NAME})
+add_subdirectory("application")
 
 include(CPack)
